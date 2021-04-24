@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#navContainer{
+  display: flex;
+  justify-content: space-around;
+  height: 7em;
+  padding: 1em;
+  margin-bottom: 2em;
+  background-color: red;
+
+}
+#logo img{
+  height: 5em;
+  width: 5em;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.navLinks{
+  display: flex;
+  margin: auto 0;
+  justify-content: space-around;
+}
+.navLinks ul{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.navLinks #dropDown::after{
+  content: '\25bc';
+  padding-left: .5em;
+}
+.navLinks li{
+  list-style: none;
+  padding: .5em 2.5em;
+}
+.navLinks a{
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #ffffff;
+  font-weight:bold; 
+}
+.navLinks .ddActive{
+  display: none;
+  
+  margin-top: 5em;
+}
+.heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.introCard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width:70%;
+  font-size: 2rem;
+  line-height: 4rem;
+  background-color: red;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 1em;
+}
+.introCard p{
+  max-width:60ch;
+  text-align: center;
+}
